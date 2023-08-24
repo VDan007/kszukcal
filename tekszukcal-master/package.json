@@ -4,13 +4,18 @@
   "description": "Napi kalóriaszükséglet számítása",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jasmine" ,
     "start": "npx lite-server"
   },
-  "keywords": ["fat", "mass", "calorie"],
+  "keywords": [
+    "fat",
+    "mass",
+    "calorie"
+  ],
   "author": "Nagy János",
   "license": "ISC",
   "devDependencies": {
+    "jasmine": "^5.1.0",
     "lite-server": "^2.6.1"
   },
   "dependencies": {
